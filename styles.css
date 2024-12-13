@@ -1,0 +1,143 @@
+div#one{
+    background-color: #1F2937;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    width:auto;
+}
+
+div#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+div#header{
+    margin: 0px 50px;
+    width: 500px;
+    color: aliceblue;
+}
+div#links{
+    flex-shrink: 0;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    margin: 0px 50px;
+    color: white;
+    a{
+        margin: 10px;
+    }
+}
+div#hero-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    color: aliceblue;
+    #hero-text{
+        align-self: center;
+        flex-wrap: wrap;
+        button{
+            border-radius: 5px;
+            background-color: #3882f8;
+            color: aliceblue;
+            border-style: solid;
+            margin: 10px;
+            padding: 5px 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+    img{
+        margin: 10px;
+        height: 250px;
+        width: 500px;
+        flex-shrink: 2;
+    }
+}
+div#two{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    padding: 20px;
+    height: auto;
+    width: auto;
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 10%;
+            border-color:blue;
+            border-width: 3px;
+            border-style: solid;
+            margin: 10px;
+        }
+        p{
+            text-transform: capitalize;
+            text-wrap: wrap;
+            word-break: keep-all;
+        }
+        div{
+            flex-direction: column;
+            text-wrap: wrap;
+        }
+
+    }
+}
+
+div#three{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    p{
+
+        align-self: center;
+    }
+    strong{
+        color: gray;
+        align-self: flex-end;
+    }
+}
+
+div#four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    div{
+        box-sizing: border-box;
+        margin-top: 50px;
+        background-color: #3882f8;
+        border-radius:10px ;
+        height: 100px;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        
+        p{
+            color: aliceblue;
+        }
+        button{
+            color:aliceblue;
+            background-color:#3882f8;
+            border-radius: 5px;
+            border-color: aliceblue;
+            border-style: solid;
+            height: auto;
+            width: auto;
+            padding: 5px;
+        }
+    }
+}
